@@ -12,3 +12,7 @@ This project is utilized by The Pennsylvania State University and College of Med
 5. TEST, TEST, TEST.
 
 Of course feel free to adapt as you wish. Some changes we will be making include changing from using the next-instance smart variable to new-instance. This will potentially allow you to remove the survey queue setup which we were utilizing in case a user were to click a link to add more notes in an old email. We we also working on automatically creating tickets for certain 'To Do List' items (API token/approve draft changes/MyCap).
+
+Warning: If a non-admin attempts to edit the JavaScript calculated fields, the code will be wiped out and will need to be re-added by an admin.
+
+Warning: In some cases, like editing the data dictionary and uploading, the SQL field may be inadvertantly changed. You may need to open it up and replace blank lines with a newline character (backslash n).
